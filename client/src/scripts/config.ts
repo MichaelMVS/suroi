@@ -4,10 +4,10 @@ import type { ModeName } from "@common/definitions/modes";
 export const Config = {
     regions: {
         dev: {
-            name: "Local Server",
-            mainAddress: "http://127.0.0.1:8000",
-            gameAddress: "ws://127.0.0.1:<gameID>",
-            offset: 8001
+            name: "Server 1",
+            mainAddress: "https://suroi-mygb.onrender.com/",
+            gameAddress: "wss://suroi-mygb.onrender.com//game/<gameID>",
+            offset: 1
         }/* ,
         na: {
             name: "North America",
