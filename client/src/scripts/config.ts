@@ -3,12 +3,12 @@ import type { ModeName } from "@common/definitions/modes";
 
 export const Config = {
     regions: {
-        dev: {
+        /* dev: {
             name: "Server 1",
             mainAddress: "https://suroi-mygb.onrender.com/",
             gameAddress: "wss://suroi-mygb.onrender.com//game/<gameID>",
             offset: 1
-        }/* ,
+        },*/
         na: {
             name: "North America",
             mainAddress: "https://na.suroi.io",
@@ -38,9 +38,9 @@ export const Config = {
             mainAddress: "https://oc.suroi.io",
             gameAddress: "wss://oc.suroi.io/game/<gameID>",
             offset: 1
-        } */
+        }
     },
-    defaultRegion: "dev"
+    defaultRegion: "na"
 } satisfies ConfigType as ConfigType;
 
 export interface ConfigType {
