@@ -12,12 +12,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://suroi-mygb.onrender.com/#</loc>
-    <lastmod>2023-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+
   <url>
     <loc>https://suroi-mygb.onrender.com/privacy/</loc>
     <lastmod>2023-10-27</lastmod>
